@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://172.10.0.4:8761/eureka
+      defaultZone: http://172.17.0.4:8761/eureka
   instance:
       prefer-ip-address: true
